@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/signup.css" />
+  </head>
+  <body>
+    <div class="message-error">
+      <ul></ul>
+    </div>
+
+    <div class="message-success">Form sent successfully!</div>
+    <a href="../html/home.html">
+      <button class="back-btn">Back</button>
+    </a>
+    <form action="" method="post" enctype="multipart/form-data">
+      <div>
+        <label for="pseudo">Name</label>
+        <input type="text" name="pseudo" id="pseudo" />
+      </div>
+
+      <div>
+        <label for="Email">Email</label>
+        <input type="email" name="email" id="email" />
+      </div>
+
+      <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" />
+      </div>
+
+      <div>
+        <label for="password2">Password confirm</label>
+        <input type="password" name="password2" id="password2" />
+      </div>
+
+      <a href="../html/home.html">
+        <button type="submit">Sign Up</button>
+      </a>
+    </form>
+
+    <script src="../js/signup.js"></script>
+  </body>
+</html>
